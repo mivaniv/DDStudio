@@ -4,7 +4,8 @@
     color: white;
     padding: 20px 20px;
     position: relative;
-
+    display: block;
+    border-bottom:1px #7ba0c0 solid;
 }
 
 .servicesTitle {
@@ -24,9 +25,11 @@
     padding-left: 30px;
     background-color: black;
     transition: background-color 1s ease-out 100ms
+
 }
 .servicesGalleryBlock:hover {
     background: #333333;
+    border-radius: 5px 60px 60px 5px;
 }
 .servicesGalleryBlock li{
     margin: 5px;
@@ -55,12 +58,12 @@
 .ButtonRequest{
     color: white;
     background: black;
-    border: 5px solid gold;
+    border: 5px solid  #7BA0C0;
     border-radius: 30px;
     padding: 20px;
     margin: 10px;
     transition: background-color 0.5s ease-out 100ms
 }
 .ButtonRequest:hover{
-    background: #D3B75AFF;
+    background: #7BA0C0;
 }

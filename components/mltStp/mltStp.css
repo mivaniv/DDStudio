@@ -1,5 +1,6 @@
 .mltStpBlock {
     background-color: #000000;
+    border-bottom:1px #7ba0c0 solid;
 }
 
 #regForm {
@@ -33,7 +34,7 @@ input.invalid {
 }
 
 button {
-    background-color: gold;
+    background-color:  #7BA0C0;
     color: #ffffff;
     border: none;
     padding: 10px 20px;

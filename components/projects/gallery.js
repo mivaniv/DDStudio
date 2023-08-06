@@ -1,4 +1,3 @@
-console.log("some")
 
 function createModal() {
     document.querySelector('body').insertAdjacentHTML
@@ -33,7 +32,7 @@ function createModal() {
                     </div>
                 </div>
                 <div class="modalImageContainer">
-                    <img src="../img/3.jpg" alt="Test" class="modalImage"/>
+                    <img src="../img/proj1/img%20(1).jpg" alt="Test" class="modalImage"/>
                 </div>
             </div>
         </div>

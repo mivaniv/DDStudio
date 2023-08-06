@@ -4,7 +4,6 @@
     text-align: center;
     padding: 20px 0;
     position: relative;
-
 }
 
 .projectsTitle {
@@ -12,7 +11,7 @@
 }
 
 .projectsGalleryProjectInformation {
-    background-image: url("../img/1.jpg");
+    background-image: url("../img/proj1/img (1).jpg");
     height: 400px;
     width: 40vw;
     background-repeat: no-repeat;
@@ -29,15 +28,18 @@
     flex-wrap: wrap;
 
 }
-.projectsGalleryProject{
-    margin-bottom: 20px;
+
+.projectsGalleryProject {
+    height: 20px;
+    width: 20px;
 }
+
 .projectsGalleryProjectInformation {
     position: relative;
 
 }
 
-.projectsGalleryProjectName{
+.projectsGalleryProjectName {
     text-transform: uppercase;
     font-size: larger;
     font-weight: bold;
@@ -47,6 +49,7 @@
     bottom: 60px;
     position: absolute;
 }
+
 .projectsGalleryProjectSize {
     font-size: 20px;
     display: inline-block;
@@ -60,12 +63,12 @@
     bottom: 10px;
 }
 
-*body{
-    position: relative;
+.projectsGalleryProject img {
+
 }
 
 
-.imageView{
+.imageView {
     position: fixed;
     top: 0;
     height: 100vh;
@@ -74,19 +77,19 @@
     display: none;
 }
 
-.imageBox{
-    width:70vw;
+.imageBox {
+    width: 70vw;
     height: 80vh;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: tomato;
+    background:  #7BA0C0;
     display: none;
 }
 
 
-#prevBtn, #nextBtn{
+#prevBtn, #nextBtn {
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
@@ -98,16 +101,16 @@
     cursor: pointer;
 }
 
-#prevBtn{
+#prevBtn {
     border-right: 40px solid grey;
     left: -50px;
 }
 
-#nextBtn{
+#nextBtn {
     border-left: 40px solid grey;
     right: -50px;
 }
 
-#nextBtn:hover, #prevBtn:hover{
+#nextBtn:hover, #prevBtn:hover {
     opacity: 0.6;
 }
