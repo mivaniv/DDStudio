@@ -1,0 +1,69 @@
+.services {
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px 20px;
+    position: relative;
+    display: block;
+    border-bottom:1px #7ba0c0 solid;
+}
+
+.servicesTitle {
+    margin: 20px 0;
+    z-index: 3;
+}
+
+.servicesGallery {
+    display: flex;
+}
+.servicesGallery>div{
+    flex-grow: 1;
+}
+.servicesGalleryBlock {
+    margin-right: 40px;
+    border-left: 2px solid #333333;
+    padding-left: 30px;
+    background-color: black;
+    transition: background-color 1s ease-out 100ms
+
+}
+.servicesGalleryBlock:hover {
+    background: #333333;
+    border-radius: 5px 60px 60px 5px;
+}
+.servicesGalleryBlock li{
+    margin: 5px;
+}
+.servicesGalleryBlock ul {
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.servicesGalleryBlockList {
+    padding-left: 20px;
+}
+
+.servicesGalleryBlockListTitle {
+    list-style-type: none;
+}
+
+.servicesGalleryBlockTitle {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.ButtonRequest{
+    color: white;
+    background: black;
+    border: 5px solid  #7BA0C0;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 10px;
+    transition: background-color 0.5s ease-out 100ms
+}
+.ButtonRequest:hover{
+    background: #7BA0C0;
+}
