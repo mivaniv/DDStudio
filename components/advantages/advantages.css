@@ -1,0 +1,40 @@
+.advantages {
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.advantagesTitle {
+    margin: 20px 0;
+    z-index: 3;
+}
+.advantagesTitleBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.advantagesBlock {
+    display: flex;
+    margin: 40px;
+    padding: 10px;
+    border: 4px solid gold;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.advantagesBlockImg {
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.advantagesBlockTitleText {
+    color: gold;
+    margin-left: 10px;
+}

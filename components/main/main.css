@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../components/img/1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    animation: change 15s infinite  ease-in-out;
+}
+
+.main::before {
+    opacity: 0.1;
+}
+.main span{
+    color: #fff;
+}
+.mainText {
+    text-align: left;
+    font-size: 40px;
+
+    text-transform: uppercase;
+}
+
+@keyframes change {
+    0% {
+        background-image: url("../../components/img/1.jpg");
+    }
+    25% {
+        background-image: url("../../components/img/2.jpg");
+    }
+    50% {
+        background-image: url("../../components/img/3.jpg");
+    }
+    100% {
+        background-image: url("../../components/img/1.jpg");
+    }
+}
+
+.mainTextTitle {
+    color: gold;
+}
+
+
+/*.buttonAbout:before{*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    color: white;*/
+/*    background: gold;*/
+/*    z-index: -1;*/
+/*    transition: transform 0.5s;*/
+/*    transform-origin: bottom right;*/
+/*    transform: scale(0);*/
+/*    border-radius: 10px;*/
+
+/*}*/
+/*.buttonAbout:hover:before*/
+/*{*/
+/*    transition: transform 0.5s;*/
+/*    transform-origin: top left;*/
+/*    transform: scale(1);*/
+/*}*/
+/*.buttonAbout:after{*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background:transparent;*/
+/*    border: 4px solid gold;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 10px;*/
+/*    z-index: -1;*/
+/*    transition: transform 0.5s;*/
+/*    transform-origin: top left;*/
+/*    transform: scale(1);*/
+/*}*/
+/*.buttonAbout:hover:after{*/
+/*    transition: transform 0.5s;*/
+/*    transform-origin: bottom right;*/
+/*    transform: scale(0);*/
+/*}*/
