@@ -58,7 +58,7 @@
 .ButtonRequest{
     color: white;
     background: black;
-    border: 5px solid  #7BA0C0;
+    border: var(--border);
     border-radius: 30px;
     padding: 20px;
     margin: 10px;

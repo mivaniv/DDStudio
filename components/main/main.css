@@ -1,7 +1,14 @@
+:root {
+    --white-gold: #7BA0C0;
+    --border-color: #7BA0C0;
+    --border: 4px solid var(--border-color);
+    --common-font: 'Raleway', sans-serif
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Alegreya SC', Georgia, serif;
+    font-family: var(--common-font);
 }
 
 .main {
@@ -33,7 +40,7 @@
 
 .mainTextTitle {
     color: #ffffff;
-    border: 2px solid #7BA0C0;
+    border: var(--border);
     padding: 10px;
     border-radius: 5px;
     background: rgba(123, 160, 192, 0.63);
