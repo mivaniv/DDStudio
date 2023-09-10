@@ -1,13 +1,3 @@
-:root {
-    --white-gold: #7BA0C0;
-    --border-color: #7BA0C0;
-    --border: 4px solid var(--border-color);
-}
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
-
 .border {
     border-radius: 10px;
     border: var(--border);
