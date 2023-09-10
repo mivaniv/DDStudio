@@ -33,18 +33,6 @@ input.invalid {
     margin-top: 20px;
 }
 
-button {
-    background-color:  #7BA0C0;
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 17px;
-    cursor: pointer;
-}
-
-button:hover {
-    opacity: 0.8;
-}
 
 #prevBtn {
     background-color: #bbbbbb;

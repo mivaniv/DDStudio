@@ -1,29 +1,32 @@
 
 body {
     font-family: 'Raleway', sans-serif;
-    position: relative;
 }
 .primary{
+position:relative;
     overflow: hidden;
 }
 .sticky{
-    position: sticky;
-    top:0;
-    z-index: 15;
+position:absolute;
+top:0;
+left:0;
+    width: 100vw;
 }
 .header{
-    background-color: #000000;
 }
 .buttonHeader{
-    position: sticky;
     top: 0;
     margin: 30px;
     padding: 15px 40px;
-    text-transform: uppercase;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #7BA0C0;
     letter-spacing: 2px;
-    font-size: 20px;
     border-radius: 10px;
+    border:5px solid #7BA0C0;
+    background:none;
 }
 
+.buttonHeader p{
+font-weight: bold;
+font-size:1.6rem;
+}
